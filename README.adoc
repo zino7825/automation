@@ -1,2 +1,2 @@
-= linux 서버 운영 자동화 목적으로 만든 tool or scripts 공유 목적
+= linux 서버 운영시 도움이 될 만한 것들 공유
 
