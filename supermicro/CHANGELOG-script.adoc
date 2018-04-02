@@ -1,0 +1,4 @@
+=== 2018.04.02
+supermicro old serverbfirmware update 도
+
+SMCIPMITool 은 License 가 필요하여 별도 개발함
