@@ -1,6 +1,6 @@
 = pre_raid.sh
-kickstart (redhat/centos) 의 pre script를 이용하여 raid 설정 하는 scripts ( smart array / megacli 이용 )
-URL 이라는 변수에 binary package 를 넣어둔 ip or domain 기입하여 넣어두면 됨.
 
-binary 는 이미 설치된 OS에서 megacli or hpssacli(ssacli) 를 설치하고 tar 로 압축하여 올려둠
+* kickstart (redhat/centos) 의 pre script를 이용하여 raid 설정 하는 scripts ( smart array / megacli 이용 )
+* URL 이라는 변수에 binary package 를 넣어둔 ip or domain 기입하여 넣어두면 됨.
+* binary 는 이미 설치된 OS에서 megacli or hpssacli(ssacli) 를 설치하고 tar 로 압축하여 올려둠
 
