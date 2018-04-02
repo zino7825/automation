@@ -4,7 +4,8 @@
 # Supermicro Server : bmc firmware update tool
 # 
 # create by zino
-#
+# 
+# ./tool {bmc_IP}
 
 
 USER="ADMIN"
