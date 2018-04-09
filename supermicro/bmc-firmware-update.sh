@@ -21,6 +21,7 @@ if [[ $VERSION =~ 0339 ]];then
  echo "$IPMI_MAC : alreay 0339"
  exit 1; 
 fi
+curl -b cookie.txt -s -d "LOCK_UPLOAD_FW.XML=(0,0)" "http://${IPMI_HOST}/cgi/ipmi.cgi"
 curl -b cookie.txt -v -L -H "Connection: Keep-Alive" -H "Upgrade-Insecure-Requests: 1" -H "Expect:" -F "form1=@${IMAGE_PATH};filename=${IMAGE_NAME}" "http://${IPMI_HOST}/cgi/oem_firmware_upload.cgi" 
 curl -b cookie.txt -s -H "Connection: Keep-Alive" -v -d "preserve_config=1" "http://${IPMI_HOST}/cgi/oem_firmware_update.cgi"
 curl -s -o /dev/null -H "Connection: close" "http://${IPMI_HOST}/cgi/logout.cgi" -b cookie.txt
