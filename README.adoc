@@ -1,2 +1,3 @@
-= linux 서버 운영시 도움이 될 만한 것들 공유
+== Automation tool for linux
+* Share something that will help you run linux
 
