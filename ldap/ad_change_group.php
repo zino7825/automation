@@ -9,7 +9,7 @@ set_time_limit ( 30 );
 error_reporting ( E_ALL );
 ini_set ( 'error_reporting', E_ALL );
 ini_set ( 'display_errors', 1 );
-$empno = isset($_REQUEST["empno"])?$_REQUEST["empno"]:"nb10498";
+$empno = '';
 $empno = strtoupper($empno);
 $ldapserver = 'ldap://{ip}';
 $ldapuser      = '{id}';
